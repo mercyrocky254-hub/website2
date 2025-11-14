@@ -141,6 +141,20 @@ button:hover {
     gap: 15px;
     flex-wrap: wrap;
 }
+.gallery-container .gallery-item {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.gallery-container .gallery-item img {
+    max-width:30%;
+    height:min-content;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+}
 
 footer {
     text-align: center;
